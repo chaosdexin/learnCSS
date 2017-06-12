@@ -52,7 +52,7 @@ body {
     outline: 0;
     padding-left: 15px;
     font-size: 16px;
-}/*这个inputstyle什么意思，好像没什么效果*/
+}
 #auto_login {
     height: 24px;
     margin: 15px 0;
@@ -77,7 +77,7 @@ body {
 #remember {
     left: 14px;
     top: 5px;
-    cursor: pointer;
+    cursor: pointer;/*鼠标链接为手*/
     z-index: 1;
     opacity: .01;
 }
@@ -106,27 +106,23 @@ body {
     position: relative;
     margin-top: 15px;
     overflow: hidden;
-    
+
 }
-#switch
+
 #forgetpwd {
     float: left;
     margin-left: -10px;
 }
-#switch {
+#zc_feedback {
     width: 290px;
-    margin: 0 auto;
+    margin: 15px auto 0px;
 }
-#switch
+#zc_feedback
 #zc {
     float: right;
     margin-right: -10px;
 }
-#switch
-#forgetpwd,
-#switch
-#zc {
-    color: #246183 !important;
+#forgetpwd,#zc {
     line-height: 14px;
     font-size: 14px;
     padding: 15px 10px;
@@ -142,4 +138,10 @@ a.underline:link {
 }
 #g_u {
     border-bottom: 1px solid #eaeaea;
+}
+#zc{
+    color: #246183;
+}
+#forgetpwd{
+    color: #246183;
 }
